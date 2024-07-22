@@ -22,7 +22,7 @@ namespace TelegramCalculator.Services
 
         public void Start(string[] args)
         {
-            _сlient = new TelegramBotClient("7472290734:AAHq7_RcWwwQFrR7Pf3oz8A7pCQoUlBfxuw");
+            _сlient = new TelegramBotClient("TELEGRAM_TOKEN");
             _сlient.StartReceiving(Update, Erorr);
             Console.ReadLine();
         }
